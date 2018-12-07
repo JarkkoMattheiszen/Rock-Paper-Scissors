@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="rps.css">
         
         <title>Rock Paper Scissors</title>
     </head>
@@ -16,7 +16,7 @@
                 <div class="player-choice" id="player-0-choice">
                 <img src="rock.png" alt="Choice" class="weapon0" id="player-0-weapon">
                 </div>
-                <div class="player-score-box">
+                <div class="player-score-box" id="player-0-score-box">
                     <div class="player-score-label">Wins</div>
                     <div class="player-current-score" id="score-0">0</div>
                 </div>
@@ -27,7 +27,7 @@
                 <div class="player-choice" id="player-1-choice">
                 <img src="rock.png" alt="Choice" class="weapon1" id="player-1-weapon">
                 </div>
-                <div class="player-score-box">
+                <div class="player-score-box" id="player-1-score-box">
                     <div class="player-score-label">Wins</div>
                     <div class="player-current-score" id="score-1">0</div>
                 </div>
@@ -40,9 +40,11 @@
             <button class="btn-paper">Paper</button>
             <button class="btn-scissors">Scissors</button>
 
+            <div class="title">Rock-Paper-Scissors</div>
+            <div class="intro">Choose your weapon <br> to start</div>
             
         </div>
         
-        <script src="app.js"></script>
+        <script src="rps.js"></script>
     </body>
 </html>
